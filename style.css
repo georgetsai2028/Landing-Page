@@ -1,0 +1,167 @@
+body {
+    margin:0;
+}
+.hero {
+    display: flex;
+    background-color: hsl(12, 76%, 49%);
+    flex-direction: column;
+}
+.container-1 {
+   padding: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.header {
+    display: flex;
+    color:#F9FAF8;
+    font-size: 30px;
+    
+}
+.header-links {
+    display: flex;
+    gap:12px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.header-buttons {
+    display:flex;
+    gap: 6px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-2 {
+    background-color:hsl(12, 76%, 49%);
+    padding: 120px;
+    display: flex;
+    align-content: center;
+}
+.mini-container {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.personalized {
+  display: flex;
+  font-size: 48px;
+  font-weight:bolder;
+  margin-bottom: 6px;
+}
+.summarized {
+    display: flex;
+    margin-bottom:12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+.personalized-picture {
+    border-style: groove;
+    border-color: black;
+    
+}
+
+.container-3 {
+background-color: rgb(97, 89, 89);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 50px;
+flex-direction: column;
+}
+
+.info-heading {
+    justify-content: center;
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:30px;
+    padding: 12px;
+    margin-left:30px;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4px;
+}
+
+.pic {
+    display: flex;
+    gap: 22px;
+    border: 2px;
+    border-radius: 25px;
+}
+
+.info-pic{
+    display: flex;
+}
+.container-4 { 
+    display: flex;
+    padding: 120px;
+    flex-direction: column;
+    background-image: url(./images/rocky.jpg);
+    
+}
+
+
+    
+.quote {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.container-5 {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    gap:12px;
+}
+
+.sign-up {
+display: flex;
+color: white;
+font-size: 18px;
+font-weight: bold;
+}
+
+.sign-up-summary {
+    display: flex;
+    color: white;
+    gap: 12px;
+}
+
+.sign-up-button {
+    display: flex;
+    color: white;
+    flex-flow: row wrap;
+}
+
+.footer {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    padding: 8px;
+}
