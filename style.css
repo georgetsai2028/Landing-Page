@@ -62,9 +62,11 @@ a {
   margin-bottom: 6px;
 }
 .summarized {
+    padding: 12px;
     display: flex;
     margin-bottom:12px;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #E5E7EB;
 }
     
 .personalized-picture {
